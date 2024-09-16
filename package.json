@@ -1,7 +1,14 @@
 {
   "dependencies": {
+    "hardhat": "^2.22.10"
+  },
+  "devDependencies": {
     "chai": "^5.1.1",
-    "hardhat": "^2.22.10",
-    "jest": "^29.7.0"
+    "ethers": "^6.13.2",
+    "jest": "^29.7.0",
+    "jest-junit": "^16.0.0"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }
