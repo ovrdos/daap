@@ -24,13 +24,13 @@ contract DAAP is ERC20, AccessControl {
 
     // Minting function with role control
     function mint(address to, uint256 amount) public {
-        require(hasRole(MINTER_ROLE, msg.sender), "DAAP: Must have minter role to mint");
+        require(hasRole(MINTER_ROLE, msg.sender), "AccessControl: account is missing role MINTER_ROLE");
         _mint(to, amount);
     }
 
     // Burning function with role control
     function burn(uint256 amount) public {
-        require(hasRole(BURNER_ROLE, msg.sender), "DAAP: Must have burner role to burn");
+        require(hasRole(BURNER_ROLE, msg.sender), "AccessControl: account is missing role BURNER_ROLE");
         _burn(msg.sender, amount);
     }
 
