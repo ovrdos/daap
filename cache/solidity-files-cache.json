@@ -341,8 +341,8 @@
       ]
     },
     "/Users/fso/streams/8. tokens/daapcoin/daap/contracts/daap.sol": {
-      "lastModificationDate": 1726609976904,
-      "contentHash": "eed89ad37f9af7dbd970e0580e054e71",
+      "lastModificationDate": 1726612568381,
+      "contentHash": "f18c6135335670c67bd3db60dedfe803",
       "sourceName": "contracts/daap.sol",
       "solcConfig": {
         "version": "0.8.20",
