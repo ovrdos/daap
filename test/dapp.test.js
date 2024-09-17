@@ -1,5 +1,5 @@
-const { ethers } = require("hardhat");
 const { expect } = require("chai");
+const { ethers } = require("hardhat");
 
 describe("DAAP Token Contract", function () {
     let Token, daapToken, owner, addr1, addr2, minter;

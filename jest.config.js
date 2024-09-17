@@ -1,5 +1,5 @@
 module.exports = {
+  testEnvironment: "node",
   verbose: true,
-  testResultsProcessor: "jest-junit",
 };
 
