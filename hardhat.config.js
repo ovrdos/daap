@@ -10,7 +10,7 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 });
 
 module.exports = {
-  solidity: "0.8.17",  // Make sure this matches the Solidity version in your contracts
+  solidity: "0.8.20",  // Make sure this matches the Solidity version in your contracts
   networks: {
     hardhat: {
       chainId: 1337,  // Specify the chainId for your local Hardhat network
